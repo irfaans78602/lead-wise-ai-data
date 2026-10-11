@@ -1,0 +1,13 @@
+Folder PATH listing
+Volume serial number is 008A-B41B
+C:.
+³   .gitignore
+³   README.md
+³   tree.txt
+³   
+ÀÄÄÄLeadWiseAI
+        .client-slug
+        10-clients.json
+        60-instance.json
+        notes.md
+        

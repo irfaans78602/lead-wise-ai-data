@@ -1,0 +1,322 @@
+{
+  "root_ad": {
+    "client_key": "leadwise-platform",
+    "source_ad_id": "leadwise",
+    "ad_name": "LeadWise AI - Canonical",
+    "is_placeholder": true,
+    "language_code": null,
+    "reopen_policy": null,
+    "whatsapp_phone_number_id": null,
+
+    "ad_confirmations": {
+      "message_text": {
+        "en": "Thank you {10}! That's everything we need — our team will be in touch shortly.",
+        "ar": "شكراً لك {10}! هذا كل ما نحتاجه — سيتواصل معك فريقنا قريباً.",
+        "es": "¡Gracias, {10}! Eso es todo lo que necesitamos — nuestro equipo se pondrá en contacto pronto.",
+        "fr": "Merci {10} ! C'est tout ce dont nous avons besoin — notre équipe vous contactera bientôt.",
+        "zh": "谢谢您，{10}！我们需要的信息已经齐全——我们的团队会尽快与您联系。"
+      }
+    },
+
+    "ad_reopen_prompts": {
+      "prompt_text": {
+        "en": "Thanks for reaching out again, {10}. Your previous enquiry is with our team. Would you like to start a new enquiry?",
+        "ar": "شكراً لتواصلك مرة أخرى، {10}. استفسارك السابق قيد المعالجة من قبل فريقنا. هل ترغب في بدء استفسار جديد؟",
+        "es": "Gracias por contactarnos de nuevo, {10}. Su consulta anterior está con nuestro equipo. ¿Le gustaría iniciar una nueva consulta?",
+        "fr": "Merci de nous avoir recontactés, {10}. Votre demande précédente est entre les mains de notre équipe. Souhaitez-vous commencer une nouvelle demande ?",
+        "zh": "感谢您再次联系我们，{10}。您之前的咨询已由我们的团队处理。您想开始新的咨询吗？"
+      },
+      "reopen_button_title": {
+        "en": "Yes, start fresh",
+        "ar": "نعم، ابدأ من جديد",
+        "es": "Sí, empezar de nuevo",
+        "fr": "Oui, recommencer",
+        "zh": "是的，重新开始"
+      },
+      "forward_button_title": {
+        "en": "No, just pass this on",
+        "ar": "لا، فقط مرّر هذا",
+        "es": "No, solo reenvíelo",
+        "fr": "Non, transmettez simplement",
+        "zh": "不，只是转达一下"
+      }
+    },
+
+    "faqs": [
+      {
+        "question_id": 10,
+        "question_order": 1,
+        "question_type": "first_name",
+        "mandatory": true,
+        "options": null,
+        "depends_on": null,
+        "question_text": {
+          "en": "Hello! Thanks for reaching out to LeadWise AI. May I have your first name, please?",
+          "ar": "مرحباً! شكراً لتواصلك مع LeadWise AI. هل يمكنني الحصول على اسمك الأول من فضلك؟",
+          "es": "¡Hola! Gracias por contactar a LeadWise AI. ¿Me podría dar su nombre, por favor?",
+          "fr": "Bonjour ! Merci d'avoir contacté LeadWise AI. Puis-je avoir votre prénom, s'il vous plaît ?",
+          "zh": "您好！感谢您联系 LeadWise AI。请问可以告诉我您的名字吗？"
+        }
+      },
+      {
+        "question_id": 20,
+        "question_order": 2,
+        "question_type": "last_name",
+        "mandatory": true,
+        "options": null,
+        "depends_on": null,
+        "question_text": {
+          "en": "May I have your last name, please?",
+          "ar": "هل يمكنني الحصول على اسم عائلتك من فضلك؟",
+          "es": "¿Me podría dar su apellido, por favor?",
+          "fr": "Puis-je avoir votre nom de famille, s'il vous plaît ?",
+          "zh": "请问可以告诉我您的姓氏吗？"
+        }
+      },
+      {
+        "question_id": 30,
+        "question_order": 3,
+        "question_type": "phone_number",
+        "mandatory": false,
+        "options": null,
+        "depends_on": null,
+        "question_text": {
+          "en": "Great to meet you, {10}. What's the best phone number to reach you on, including country code?",
+          "ar": "تشرفنا بلقائك، {10}. ما هو أفضل رقم هاتف للتواصل معك عليه، مع رمز الدولة؟",
+          "es": "Un placer conocerle, {10}. ¿Cuál es el mejor número de teléfono para contactarle, incluyendo el código de país?",
+          "fr": "Enchanté, {10}. Quel est le meilleur numéro de téléphone pour vous joindre, indicatif pays inclus ?",
+          "zh": "很高兴认识您，{10}。能联系到您的最佳电话号码是多少？请包含国家代码。"
+        }
+      },
+      {
+        "question_id": 40,
+        "question_order": 4,
+        "question_type": "email_address",
+        "mandatory": true,
+        "options": null,
+        "depends_on": null,
+        "question_text": {
+          "en": "And what's your email address?",
+          "ar": "وما هو بريدك الإلكتروني؟",
+          "es": "¿Y cuál es su dirección de correo electrónico?",
+          "fr": "Et quelle est votre adresse e-mail ?",
+          "zh": "您的电子邮箱地址是什么？"
+        }
+      },
+      {
+        "question_id": 50,
+        "question_order": 5,
+        "question_type": "business_name",
+        "mandatory": false,
+        "options": null,
+        "depends_on": null,
+        "question_text": {
+          "en": "What's your company or business name?",
+          "ar": "ما هو اسم شركتك أو نشاطك التجاري؟",
+          "es": "¿Cuál es el nombre de su empresa o negocio?",
+          "fr": "Quel est le nom de votre entreprise ou société ?",
+          "zh": "您的公司或企业名称是什么？"
+        }
+      },
+      {
+        "question_id": 60,
+        "question_order": 6,
+        "question_type": "dropdown_multi",
+        "mandatory": true,
+        "depends_on": null,
+        "question_text": {
+          "en": "Which of our services are you interested in?",
+          "ar": "بأي من خدماتنا أنت مهتم؟",
+          "es": "¿En cuál de nuestros servicios está interesado?",
+          "fr": "Quels sont les services qui vous intéressent ?",
+          "zh": "您对我们的哪些服务感兴趣？"
+        },
+        "options": [
+          {
+            "id": 10,
+            "score": 30,
+            "en": "Lead Generation",
+            "ar": "توليد العملاء المحتملين",
+            "es": "Generación de leads",
+            "fr": "Génération de leads",
+            "zh": "潜在客户开发"
+          },
+          {
+            "id": 20,
+            "score": 20,
+            "en": "SEO",
+            "ar": "تحسين محركات البحث",
+            "es": "SEO",
+            "fr": "SEO",
+            "zh": "搜索引擎优化（SEO）"
+          },
+          {
+            "id": 30,
+            "score": 15,
+            "en": "WordPress Development",
+            "ar": "تطوير ووردبريس",
+            "es": "Desarrollo WordPress",
+            "fr": "Développement WordPress",
+            "zh": "WordPress 开发"
+          },
+          {
+            "id": 40,
+            "score": 30,
+            "en": "Ads Management",
+            "ar": "إدارة الإعلانات",
+            "es": "Gestión de anuncios",
+            "fr": "Gestion des publicités",
+            "zh": "广告管理"
+          }
+        ]
+      },
+      {
+        "question_id": 70,
+        "question_order": 7,
+        "question_type": "radio",
+        "mandatory": true,
+        "depends_on": null,
+        "question_text": {
+          "en": "What budget range are you working with for this project?",
+          "ar": "ما هي الميزانية التي تعمل بها لهذا المشروع؟",
+          "es": "¿Con qué rango de presupuesto está trabajando para este proyecto?",
+          "fr": "Quel budget envisagez-vous pour ce projet ?",
+          "zh": "您为这个项目准备的预算范围是多少？"
+        },
+        "options": [
+          {
+            "id": 10,
+            "score": 10,
+            "en": "Small",
+            "ar": "صغير",
+            "es": "Pequeño",
+            "fr": "Petit",
+            "zh": "小型"
+          },
+          {
+            "id": 20,
+            "score": 25,
+            "en": "Medium",
+            "ar": "متوسط",
+            "es": "Medio",
+            "fr": "Moyen",
+            "zh": "中型"
+          },
+          {
+            "id": 30,
+            "score": 40,
+            "en": "Large",
+            "ar": "كبير",
+            "es": "Grande",
+            "fr": "Grand",
+            "zh": "大型"
+          },
+          {
+            "id": 40,
+            "score": 5,
+            "en": "Not sure yet",
+            "ar": "لست متأكداً بعد",
+            "es": "Aún no estoy seguro",
+            "fr": "Pas encore sûr",
+            "zh": "还不确定"
+          }
+        ]
+      },
+      {
+        "question_id": 80,
+        "question_order": 8,
+        "question_type": "radio",
+        "mandatory": true,
+        "depends_on": null,
+        "question_text": {
+          "en": "Last question — when would you like to get started?",
+          "ar": "سؤال أخير — متى تريد أن تبدأ؟",
+          "es": "Última pregunta — ¿cuándo le gustaría empezar?",
+          "fr": "Dernière question — quand souhaitez-vous commencer ?",
+          "zh": "最后一个问题——您想什么时候开始？"
+        },
+        "options": [
+          {
+            "id": 10,
+            "score": 40,
+            "en": "Immediately",
+            "ar": "فوراً",
+            "es": "Inmediatamente",
+            "fr": "Immédiatement",
+            "zh": "立即"
+          },
+          {
+            "id": 20,
+            "score": 25,
+            "en": "Within a Week",
+            "ar": "خلال أسبوع",
+            "es": "Dentro de una semana",
+            "fr": "Dans une semaine",
+            "zh": "一周内"
+          },
+          {
+            "id": 30,
+            "score": 10,
+            "en": "Within a Month",
+            "ar": "خلال شهر",
+            "es": "Dentro de un mes",
+            "fr": "Dans un mois",
+            "zh": "一个月内"
+          },
+          {
+            "id": 40,
+            "score": 5,
+            "en": "Just exploring options",
+            "ar": "أستكشف الخيارات فقط",
+            "es": "Solo estoy explorando opciones",
+            "fr": "Je ne fais qu'explorer les options",
+            "zh": "只是在了解一下"
+          }
+        ]
+      }
+    ],
+
+    "qualification_score": [
+      { "level_code": "low",       "score_range": "[0,60)"    },
+      { "level_code": "medium",    "score_range": "[60,100)"  },
+      { "level_code": "high",      "score_range": "[100,140)" },
+      { "level_code": "very_high", "score_range": "[140,176)" }
+    ]
+  },
+
+  "ad_matrix": {
+    "client_key": "leadwise-platform",
+    "reuse_root": "leadwise",
+    "is_placeholder": true,
+
+    "source_ad_id_pattern": "leadwise-{channel}-{locale}",
+    "ad_name_pattern":      "LeadWise AI - {channel_name} ({locale})",
+
+    "channels": [
+      { "code": "chat",      "name": "Web Chat",  "whatsapp_phone_number_id": null },
+      { "code": "wa",        "name": "WhatsApp",  "whatsapp_phone_number_id": "+27749397862" },
+      { "code": "messenger", "name": "Messenger", "whatsapp_phone_number_id": null },
+      { "code": "instagram", "name": "Instagram", "whatsapp_phone_number_id": null },
+      { "code": "tiktok",    "name": "TikTok",    "whatsapp_phone_number_id": null }
+    ],
+
+    "locales": ["en", "ar", "es", "fr", "zh"],
+
+    "exclude": [],
+
+    "overrides": {}
+  },
+
+  "pricing": {
+    "volume_discounts": [
+      { "discount_type": "volume", "leads_min": 0,   "leads_max": 25,     "discount_pct": 0.00,  "label": "0-25"    },
+      { "discount_type": "volume", "leads_min": 26,  "leads_max": 100,    "discount_pct": 15.00, "label": "26-100"  },
+      { "discount_type": "volume", "leads_min": 101, "leads_max": 500,    "discount_pct": 25.00, "label": "101-500" },
+      { "discount_type": "volume", "leads_min": 501, "leads_max": 999999, "discount_pct": 35.00, "label": "500+"    }
+    ],
+
+    "agency_tier_discounts": [],
+
+    "negotiated_discounts": []
+  }
+}
