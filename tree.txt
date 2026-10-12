@@ -5,9 +5,11 @@ C:.
 ³   README.md
 ³   tree.txt
 ³   
-ÀÄÄÄLeadWiseAI
-        .client-slug
-        10-clients.json
-        60-instance.json
-        notes.md
-        
+ÃÄÄÄLeadWiseAI
+³       .client-slug
+³       10-clients.json
+³       60-instance.json
+³       notes.md
+³       
+ÀÄÄÄlogs
+    ÀÄÄÄLeadWiseAI
