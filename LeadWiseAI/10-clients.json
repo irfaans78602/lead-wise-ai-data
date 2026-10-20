@@ -2,23 +2,18 @@
   "clients": [
     {
       "client_key": "leadwise-platform",
-
       "name": "LeadWise AI (Pty) Ltd",
       "email_to": "irfaan.sulaiman786.biz@gmail.com",
       "email_cc": null,
       "email_bcc": null,
-
       "country_code": "ZA",
       "segment_code": "saas_it",
       "currency_code": "ZAR",
-
       "is_platform_owner": true,
       "is_pilot": false,
       "pilot_ends_on": null,
-
       "closed_behavior": "reply",
       "reopen_policy": "reopen",
-
       "client_messages": {
         "message_text": {
           "en": "Thank you for your message. This business is no longer accepting enquiries. We wish you well.",
@@ -27,17 +22,9 @@
           "fr": "Merci pour votre message. Cette entreprise n'accepte plus de demandes. Nous vous souhaitons bonne chance.",
           "zh": "感谢您的留言。该商家已不再接受咨询。祝您一切顺利。"
         }
-      },
-
-      "client_whatsapps": [
-        {
-          "phone_number_id": "+27749397862",
-          "display_phone_number": "+27749397862"
-        }
-      ]
+      }
     }
   ],
-
   "client_users": [
     {
       "google_sub": "REPLACE_WITH_IRFAAN_GOOGLE_SUB",
