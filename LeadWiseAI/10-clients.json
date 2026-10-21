@@ -22,6 +22,16 @@
           "fr": "Merci pour votre message. Cette entreprise n'accepte plus de demandes. Nous vous souhaitons bonne chance.",
           "zh": "感谢您的留言。该商家已不再接受咨询。祝您一切顺利。"
         }
+      },
+      "pricing": {
+        "volume_discounts": [
+          { "discount_type": "volume", "leads_min": 0,   "leads_max": 25,     "discount_pct": 0.00,  "label": "0-25"    },
+          { "discount_type": "volume", "leads_min": 26,  "leads_max": 100,    "discount_pct": 15.00, "label": "26-100"  },
+          { "discount_type": "volume", "leads_min": 101, "leads_max": 500,    "discount_pct": 25.00, "label": "101-500" },
+          { "discount_type": "volume", "leads_min": 501, "leads_max": 999999, "discount_pct": 35.00, "label": "500+"    }
+        ],
+        "agency_tier_discounts": [],
+        "negotiated_discounts": []
       }
     }
   ],
