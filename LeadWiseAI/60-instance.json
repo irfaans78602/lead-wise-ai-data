@@ -158,7 +158,7 @@
           {
             "id": 4,
             "score": 20,
-            "en": "SEO",
+            "en": "SEO (Search Engine Optimisation)",
             "ar": "تحسين محركات البحث",
             "es": "SEO",
             "fr": "SEO",
@@ -176,11 +176,11 @@
           {
             "id": 6,
             "score": 15,
-            "en": "Internal AI Assistant (staff only)",
-            "ar": "مساعد الذكاء الاصطناعي الداخلي (للموظفين فقط)",
-            "es": "Asistente IA interno (solo personal)",
-            "fr": "Assistant IA interne (personnel uniquement)",
-            "zh": "内部 AI 助手（仅限员工）"
+            "en": "SEO (Search Engine Optimisation)",
+            "ar": "تحسين محركات البحث (SEO)",
+            "es": "SEO (Optimización para motores de búsqueda)",
+            "fr": "SEO (Optimisation pour les moteurs de recherche)",
+            "zh": "SEO（搜索引擎优化）"
           }
         ]
       },
