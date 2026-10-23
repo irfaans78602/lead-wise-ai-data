@@ -14,6 +14,7 @@
       "pilot_ends_on": null,
       "closed_behavior": "reply",
       "reopen_policy": "reopen",
+      "allowed_origins": "https://lead-wise-ai.com,https://www.lead-wise-ai.com",
       "client_messages": {
         "message_text": {
           "en": "Thank you for your message. This business is no longer accepting enquiries. We wish you well.",
